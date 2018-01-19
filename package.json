@@ -1,0 +1,19 @@
+{
+  "name": "tcp-mutex",
+  "version": "1.0.0",
+  "description": "very naive implementation of mutex nodejs applications over 'locking' a tcp port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git"
+  },
+  "keywords": [
+    "nodejs",
+    "mutex"
+  ],
+  "author": "osm",
+  "license": "MIT"
+}
