@@ -18,3 +18,6 @@ tryLock(1337).then((success)=>{
     process.exit(0);
 });
 ```
+
+## Demo
+![Demonstration](https://github.com/taskinosman/tcp-mutex/blob/master/tcpmutex.gif?raw=true "Demonstration")
