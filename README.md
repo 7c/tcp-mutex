@@ -2,7 +2,11 @@
 
 This small library is there to acquire a tcp based lock by opening a tcp-server. Since ports cannot be listened from more than 1 process we can use this behaviour to acquire a kind of lock based on port.
 
+
+
 ## Usage
+npm install tcp-mutex --save
+
 ```
 var {tryLock} = require('tcp-mutex');
 
