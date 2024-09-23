@@ -3,12 +3,12 @@ This small library is there to acquire a tcp based lock by opening a tcp-server.
 
 ## Installation
 ```bash
-npm install --save tcp-mutex 
+npm i --save https://github.com/7c/tcp-mutex 
 ```
 
 ## Typescript
 ```typescript
-import { tryLock } from 'tcp-mutex';
+import { tryLock } from '@7c/tcp-mutex';
 
 // somewhere in your main code entry
 await tryLock(1337)
@@ -16,7 +16,7 @@ await tryLock(1337)
 
 ## CommonJS
 ```javascript
-const { tryLock } = require('tcp-mutex');
+const { tryLock } = require('@7c/tcp-mutex');
 
 tryLock(1337).then(()=>{
     console.log("locked successfully");
