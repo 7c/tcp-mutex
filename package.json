@@ -1,6 +1,6 @@
 {
   "name": "tcp-mutex",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "very naive implementation of mutex nodejs applications over 'locking' a tcp port",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taskinosman/tcp-mutex"
+    "url": "https://github.com/7c/tcp-mutex"
   },
   "keywords": [
     "nodejs",
     "mutex"
   ],
-  "author": "osm",
-  "license": "MIT"
+  "author": "7c",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.6.1"
+  }
 }

@@ -1,0 +1,6 @@
+*.map
+node_modules/
+package-lock.json
+release.sh
+.vscode/
+demo.js
